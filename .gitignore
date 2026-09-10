@@ -1,0 +1,20 @@
+# Secrets — NEVER commit any environment / key material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies / build
+node_modules/
+dist/
+build/
+coverage/
+
+# Blockchain build artifacts
+blockchain/cache/
+blockchain/artifacts/
+
+# Logs / OS
+*.log
+.DS_Store

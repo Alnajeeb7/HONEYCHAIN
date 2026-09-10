@@ -1,0 +1,1761 @@
+{
+  "batches": {
+    "HC-2026-0006": {
+      "batchID": "HC-2026-0006",
+      "boxID": "ewqeqwe",
+      "status": "HARVESTED",
+      "variety": "Multifloral (Mixed)",
+      "createdAt": "2026-08-22T13:18:37.461Z",
+      "harvest": {
+        "beekeeperID": "ewqeqwe",
+        "harvestMethod": "hive",
+        "quantity": 2.1,
+        "unit": "kg",
+        "moisture": 10.5,
+        "gps": {
+          "lat": 20.5937,
+          "lng": 78.9629
+        },
+        "locationName": "village",
+        "harvestedAt": "2026-08-22T13:18:37.059Z",
+        "evidenceHash": "sha256:290694406bbaec8f9c15db37af49a5e24fd4e2f1fa61888d0ec085f42bd8bc33",
+        "evidenceId": null,
+        "notes": "",
+        "recordHash": "762e6603f418ae7f0a4a3786798540a916a564da76d01bb0f9bd06d3070bbaec"
+      }
+    },
+    "HC-2026-0022": {
+      "batchID": "HC-2026-0022",
+      "boxID": "KVIC-HIVE-1234",
+      "status": "EXPORTED",
+      "variety": "Multifloral (Mixed)",
+      "createdAt": "2026-08-22T13:21:41.046Z",
+      "harvest": {
+        "beekeeperID": "BK-KVIC-8492",
+        "harvestMethod": "hive",
+        "quantity": 21,
+        "unit": "kg",
+        "moisture": 12,
+        "gps": {
+          "lat": 20.5937,
+          "lng": 78.9629
+        },
+        "locationName": "wayanad",
+        "harvestedAt": "2026-08-22T13:21:41.039Z",
+        "evidenceHash": "sha256:381fd9c05f2374256270002528269f9edd85703f13eeb301417ccc14e71946d9",
+        "evidenceId": null,
+        "notes": "",
+        "recordHash": "7df234de884c7b71bb1be93a6649d1f4eda28b46a535942cfac6443760d8d239"
+      },
+      "collection": {
+        "collectorID": "WHC-KL-014",
+        "gps": {
+          "lat": 20.5937,
+          "lng": 78.9629
+        },
+        "locationName": "",
+        "quantityReceived": 21,
+        "packageCondition": "Good",
+        "evidenceHash": "sha256:b2f3e2172e88262bd43e86ab232bdee92098ab520e0d820458062df47e7a6e46",
+        "evidenceId": null,
+        "notes": "",
+        "recordHash": "6ac6576787f01159da3d014b49b4f3b76e978e12e8be5889dc43d116c2d60d5e"
+      },
+      "lab": {
+        "labID": "LAB-FSSAI-101",
+        "sampleID": "SMP-HC-2026-0022",
+        "gps": {
+          "lat": 20.5937,
+          "lng": 78.9629
+        },
+        "locationName": "",
+        "values": {
+          "moisture": 17.8,
+          "hmf": 18,
+          "freeAcidity": 18,
+          "ph": 3.5,
+          "reducingSugars": 70.5,
+          "sucrose": 2,
+          "diastase": 11,
+          "conductivity": 0.1,
+          "adulteration": "absent",
+          "pollenIdentity": "match"
+        },
+        "results": [
+          {
+            "key": "moisture",
+            "label": "Moisture",
+            "value": 17.8,
+            "unit": "%",
+            "refRange": "≤ 20",
+            "result": "PASS",
+            "critical": true
+          },
+          {
+            "key": "hmf",
+            "label": "HMF",
+            "value": 18,
+            "unit": "mg/kg",
+            "refRange": "≤ 80",
+            "result": "PASS",
+            "critical": true
+          },
+          {
+            "key": "freeAcidity",
+            "label": "Free Acidity",
+            "value": 18,
+            "unit": "meq/kg",
+            "refRange": "≤ 50",
+            "result": "PASS",
+            "critical": false
+          },
+          {
+            "key": "ph",
+            "label": "pH",
+            "value": 3.5,
+            "unit": "",
+            "refRange": "3.4 – 6.1",
+            "result": "PASS",
+            "critical": false
+          },
+          {
+            "key": "reducingSugars",
+            "label": "Reducing Sugars",
+            "value": 70.5,
+            "unit": "%",
+            "refRange": "≥ 65",
+            "result": "PASS",
+            "critical": true
+          },
+          {
+            "key": "sucrose",
+            "label": "Sucrose",
+            "value": 2,
+            "unit": "%",
+            "refRange": "≤ 5",
+            "result": "PASS",
+            "critical": true
+          },
+          {
+            "key": "diastase",
+            "label": "Diastase Activity",
+            "value": 11,
+            "unit": "DN",
+            "refRange": "≥ 8",
+            "result": "PASS",
+            "critical": false
+          },
+          {
+            "key": "conductivity",
+            "label": "Electrical Conductivity",
+            "value": 0.1,
+            "unit": "mS/cm",
+            "refRange": "≤ 0.8",
+            "result": "PASS",
+            "critical": false
+          },
+          {
+            "key": "adulteration",
+            "label": "Adulteration (C4 sugar)",
+            "value": "absent",
+            "unit": "",
+            "refRange": "absent",
+            "result": "PASS",
+            "critical": true
+          },
+          {
+            "key": "pollenIdentity",
+            "label": "Pollen / Identity",
+            "value": "match",
+            "unit": "",
+            "refRange": "match",
+            "result": "PASS",
+            "critical": false
+          }
+        ],
+        "overall": "PASS",
+        "remarks": "",
+        "evidenceHash": null,
+        "evidenceId": null,
+        "recordHash": "ef26b65c40a00cf5c7e673e2d176c00b49bdbfa08661eafe934476fae2ffa3e7"
+      },
+      "processing": {
+        "processorID": "ddsa",
+        "facility": "asd",
+        "gps": {
+          "lat": 20.5937,
+          "lng": 78.9629
+        },
+        "locationName": "",
+        "processedAt": "2026-08-22T16:44:35.566Z",
+        "quantityReceived": 21,
+        "quantityProcessed": 21,
+        "packagingType": "Glass Jar",
+        "packagingSize": "500g",
+        "units": 12,
+        "productBatchNumber": "",
+        "packagedAt": "2026-08-22T16:44:35.566Z",
+        "expiry": "2026-09-03",
+        "label": "2121sa",
+        "productID": "HC-PROD-2026-0001",
+        "evidenceHash": "sha256:d8d2c021cb1c11802861a2bb466700c25908a680ddac63d4453e5e8ad33a0145",
+        "evidenceId": null,
+        "notes": "",
+        "recordHash": "821c2e79d16ebb05b1d7f2ca925595810e13e8fefe0428f3d22c7f9e37267ac2"
+      },
+      "productID": "HC-PROD-2026-0001",
+      "export": {
+        "exporterID": "fsff",
+        "destinationCountry": "sfsd",
+        "exportedAt": "2026-08-22T16:45:06.963Z",
+        "quantityExported": 32,
+        "gps": {
+          "lat": 20.5937,
+          "lng": 78.9629
+        },
+        "locationName": "",
+        "docsComplete": true,
+        "complianceStatus": "APPROVED",
+        "evidenceHash": "sha256:5259d6e413242c63afe88027122eed783612ff9a9e48b9a9c51313f6bf66fb94",
+        "evidenceId": null,
+        "notes": "",
+        "recordHash": "63e950ef3508482dd2c953499da7462be5488d65ada067fbcbe52a5af7de4161"
+      },
+      "environment": [
+        {
+          "monitorID": "cdc",
+          "gps": {
+            "lat": 20.5937,
+            "lng": 78.9629
+          },
+          "monitoredAt": "2026-08-22T16:45:38.242Z",
+          "temperature": 23,
+          "humidity": 12,
+          "conditions": "",
+          "risk": "LOW",
+          "dataSource": "IoT Sensor",
+          "notes": "",
+          "recordHash": "2fc9d169d2876e62dda75edae4aaff5874040c7fb55ef42714214e7c56ed5db4"
+        }
+      ]
+    },
+    "HC-2026-0066": {
+      "batchID": "HC-2026-0066",
+      "boxID": "qweqeqe",
+      "status": "HARVESTED",
+      "variety": "Multifloral (Mixed)",
+      "createdAt": "2026-08-22T16:41:17.334Z",
+      "harvest": {
+        "beekeeperID": "qwewee",
+        "harvestMethod": "hive",
+        "quantity": 12,
+        "unit": "kg",
+        "moisture": 10,
+        "gps": {
+          "lat": 20.5937,
+          "lng": 78.9629
+        },
+        "locationName": "dads",
+        "harvestedAt": "2026-08-22T16:41:16.966Z",
+        "evidenceHash": "sha256:2dc52cdabd4c3c667dbc8b4467ce5e313b01cd2d9b78bae8db949b46a201ade3",
+        "evidenceId": null,
+        "notes": "",
+        "recordHash": "9ec58a81c19e7efde04e3c4b1dc76e550d6baa8a879969e2f766a48d5f8c0c75"
+      }
+    },
+    "HC-2026-0068": {
+      "batchID": "HC-2026-0068",
+      "boxID": "ewew",
+      "status": "LAB_FAILED",
+      "variety": "Mustard",
+      "createdAt": "2026-08-22T16:42:04.152Z",
+      "harvest": {
+        "beekeeperID": "dwewe",
+        "harvestMethod": "hive",
+        "quantity": 12,
+        "unit": "kg",
+        "moisture": 12,
+        "gps": {
+          "lat": 20.5937,
+          "lng": 78.9629
+        },
+        "locationName": "cdcsd",
+        "harvestedAt": "2026-08-22T16:42:04.146Z",
+        "evidenceHash": "sha256:950ea65a3ef848573e2428b3538f096a871516c0ccc004148754a6c385f9294a",
+        "evidenceId": null,
+        "notes": "",
+        "recordHash": "7e2096076ec676842fd45e0b44e4ea3bbd9a1258b1b5a251226bf788b8f41bee"
+      },
+      "collection": {
+        "collectorID": "eerwr",
+        "gps": {
+          "lat": 20.5937,
+          "lng": 78.9629
+        },
+        "locationName": "",
+        "quantityReceived": 23,
+        "packageCondition": "Good",
+        "evidenceHash": "sha256:f4469eade9a26e4ea9275e3268f6ba6547ef94f99df9f268b33b904f53348816",
+        "evidenceId": null,
+        "notes": "",
+        "recordHash": "c894942482c0e33c8393eef2411bc23a42e48940c93961745ef43b3b0cd409be"
+      },
+      "lab": {
+        "labID": "fdef",
+        "sampleID": "SMP-HC-2026-0068",
+        "gps": {
+          "lat": 20.5937,
+          "lng": 78.9629
+        },
+        "locationName": "",
+        "values": {
+          "moisture": 21,
+          "hmf": 12,
+          "freeAcidity": 12,
+          "ph": 21,
+          "reducingSugars": 21,
+          "sucrose": 22,
+          "diastase": 12,
+          "conductivity": 12,
+          "adulteration": "absent",
+          "pollenIdentity": "match"
+        },
+        "results": [
+          {
+            "key": "moisture",
+            "label": "Moisture",
+            "value": 21,
+            "unit": "%",
+            "refRange": "≤ 20",
+            "result": "FAIL",
+            "critical": true
+          },
+          {
+            "key": "hmf",
+            "label": "HMF",
+            "value": 12,
+            "unit": "mg/kg",
+            "refRange": "≤ 80",
+            "result": "PASS",
+            "critical": true
+          },
+          {
+            "key": "freeAcidity",
+            "label": "Free Acidity",
+            "value": 12,
+            "unit": "meq/kg",
+            "refRange": "≤ 50",
+            "result": "PASS",
+            "critical": false
+          },
+          {
+            "key": "ph",
+            "label": "pH",
+            "value": 21,
+            "unit": "",
+            "refRange": "3.4 – 6.1",
+            "result": "FAIL",
+            "critical": false
+          },
+          {
+            "key": "reducingSugars",
+            "label": "Reducing Sugars",
+            "value": 21,
+            "unit": "%",
+            "refRange": "≥ 65",
+            "result": "FAIL",
+            "critical": true
+          },
+          {
+            "key": "sucrose",
+            "label": "Sucrose",
+            "value": 22,
+            "unit": "%",
+            "refRange": "≤ 5",
+            "result": "FAIL",
+            "critical": true
+          },
+          {
+            "key": "diastase",
+            "label": "Diastase Activity",
+            "value": 12,
+            "unit": "DN",
+            "refRange": "≥ 8",
+            "result": "PASS",
+            "critical": false
+          },
+          {
+            "key": "conductivity",
+            "label": "Electrical Conductivity",
+            "value": 12,
+            "unit": "mS/cm",
+            "refRange": "≤ 0.8",
+            "result": "FAIL",
+            "critical": false
+          },
+          {
+            "key": "adulteration",
+            "label": "Adulteration (C4 sugar)",
+            "value": "absent",
+            "unit": "",
+            "refRange": "absent",
+            "result": "PASS",
+            "critical": true
+          },
+          {
+            "key": "pollenIdentity",
+            "label": "Pollen / Identity",
+            "value": "match",
+            "unit": "",
+            "refRange": "match",
+            "result": "PASS",
+            "critical": false
+          }
+        ],
+        "overall": "FAIL",
+        "remarks": "",
+        "evidenceHash": "sha256:894cf04f129247a4e0bf142acdf876c9249b9365d1588cadf7b5a4ff2abafe79",
+        "evidenceId": null,
+        "recordHash": "4544ff9b5d963cd47af445efdfa6dde69891c0b44b859b52042cdce906d2f684"
+      }
+    },
+    "HC-2026-0076": {
+      "batchID": "HC-2026-0076",
+      "boxID": "KVIC-HIVE-1211",
+      "status": "EXPORTED",
+      "variety": "Multifloral (Mixed)",
+      "createdAt": "2026-08-23T06:49:50.196Z",
+      "harvest": {
+        "beekeeperID": "KVIC-HIVE-1222",
+        "harvestMethod": "hive",
+        "quantity": 23,
+        "unit": "kg",
+        "moisture": 12,
+        "gps": {
+          "lat": 20.5937,
+          "lng": 78.9629
+        },
+        "locationName": "chennai",
+        "harvestedAt": "2026-08-23T06:49:50.117Z",
+        "evidenceHash": "sha256:78ed5dbc75ce5f70551ca6441d7d39fb9ee281a5de11598567c54cc1a9faccbb",
+        "evidenceId": null,
+        "notes": "",
+        "recordHash": "8e5ae79a9469e897da29b0e3e5d0a06617a8fbb2ee6a98a98689005bc75f997f"
+      },
+      "collection": {
+        "collectorID": "whag-23",
+        "gps": {
+          "lat": 20.5937,
+          "lng": 78.9629
+        },
+        "locationName": "",
+        "quantityReceived": 21,
+        "packageCondition": "Good",
+        "evidenceHash": "sha256:d65d0129b4bbdba732c6a675adcd2c1f1a3e18ffa4e448685bb7c3b245fb2c50",
+        "evidenceId": null,
+        "notes": "",
+        "recordHash": "efa81eaddf09baff19e10dc01ea14421b8e7c0cf983d113491617163f23811d5"
+      },
+      "lab": {
+        "labID": "lab-0912",
+        "sampleID": "SMP-HC-2026-0076",
+        "gps": {
+          "lat": 20.5937,
+          "lng": 78.9629
+        },
+        "locationName": "",
+        "values": {
+          "moisture": 12,
+          "hmf": 12,
+          "freeAcidity": 12,
+          "ph": 4,
+          "reducingSugars": 75.98,
+          "sucrose": 2,
+          "diastase": 8.98,
+          "conductivity": 0.4,
+          "adulteration": "absent",
+          "pollenIdentity": "match"
+        },
+        "results": [
+          {
+            "key": "moisture",
+            "label": "Moisture",
+            "value": 12,
+            "unit": "%",
+            "refRange": "≤ 20",
+            "result": "PASS",
+            "critical": true
+          },
+          {
+            "key": "hmf",
+            "label": "HMF",
+            "value": 12,
+            "unit": "mg/kg",
+            "refRange": "≤ 80",
+            "result": "PASS",
+            "critical": true
+          },
+          {
+            "key": "freeAcidity",
+            "label": "Free Acidity",
+            "value": 12,
+            "unit": "meq/kg",
+            "refRange": "≤ 50",
+            "result": "PASS",
+            "critical": false
+          },
+          {
+            "key": "ph",
+            "label": "pH",
+            "value": 4,
+            "unit": "",
+            "refRange": "3.4 – 6.1",
+            "result": "PASS",
+            "critical": false
+          },
+          {
+            "key": "reducingSugars",
+            "label": "Reducing Sugars",
+            "value": 75.98,
+            "unit": "%",
+            "refRange": "≥ 65",
+            "result": "PASS",
+            "critical": true
+          },
+          {
+            "key": "sucrose",
+            "label": "Sucrose",
+            "value": 2,
+            "unit": "%",
+            "refRange": "≤ 5",
+            "result": "PASS",
+            "critical": true
+          },
+          {
+            "key": "diastase",
+            "label": "Diastase Activity",
+            "value": 8.98,
+            "unit": "DN",
+            "refRange": "≥ 8",
+            "result": "PASS",
+            "critical": false
+          },
+          {
+            "key": "conductivity",
+            "label": "Electrical Conductivity",
+            "value": 0.4,
+            "unit": "mS/cm",
+            "refRange": "≤ 0.8",
+            "result": "PASS",
+            "critical": false
+          },
+          {
+            "key": "adulteration",
+            "label": "Adulteration (C4 sugar)",
+            "value": "absent",
+            "unit": "",
+            "refRange": "absent",
+            "result": "PASS",
+            "critical": true
+          },
+          {
+            "key": "pollenIdentity",
+            "label": "Pollen / Identity",
+            "value": "match",
+            "unit": "",
+            "refRange": "match",
+            "result": "PASS",
+            "critical": false
+          }
+        ],
+        "overall": "PASS",
+        "remarks": "",
+        "evidenceHash": "sha256:9d10786096e3fc2d1d9781e9d72edc9bdd8a09153b2f6714768e3b453106c056",
+        "evidenceId": null,
+        "recordHash": "f1f0b1479f1dc14082089865129f241cd88004188ab03f8217602c8024f7938c"
+      },
+      "processing": {
+        "processorID": "PRC-12",
+        "facility": "pune",
+        "gps": {
+          "lat": 20.5937,
+          "lng": 78.9629
+        },
+        "locationName": "",
+        "processedAt": "2026-08-23T06:55:18.754Z",
+        "quantityReceived": 12,
+        "quantityProcessed": 12,
+        "packagingType": "Glass Jar",
+        "packagingSize": "500g",
+        "units": 12,
+        "productBatchNumber": "",
+        "packagedAt": "2026-08-23T06:55:18.754Z",
+        "expiry": "2026-09-12",
+        "label": "kvic",
+        "productID": "HC-PROD-2026-0002",
+        "evidenceHash": "sha256:c07c5044614e8a6e88633282c9e20731d45e258805acde36a785bdbb7f624c4a",
+        "evidenceId": null,
+        "notes": "",
+        "recordHash": "f4714c5a081f625aff3e4546fc9d9f04ad26049b0ea580ff05416414b556d6c1"
+      },
+      "productID": "HC-PROD-2026-0002",
+      "export": {
+        "exporterID": "wqeq12",
+        "destinationCountry": "india",
+        "exportedAt": "2026-08-23T06:56:37.184Z",
+        "quantityExported": 1212,
+        "gps": {
+          "lat": 20.5937,
+          "lng": 78.9629
+        },
+        "locationName": "",
+        "docsComplete": true,
+        "complianceStatus": "APPROVED",
+        "evidenceHash": "sha256:31dee766bcb1ac5cfef6c79f9ea6fbf78af046e1644a52334ba73eb9cc9502a8",
+        "evidenceId": null,
+        "notes": "",
+        "recordHash": "02c23d2988fd56846d59b7d6551668ed3c8f07d05a317b3398017d8c79e683c6"
+      },
+      "environment": [
+        {
+          "monitorID": "env23",
+          "gps": {
+            "lat": 20.5937,
+            "lng": 78.9629
+          },
+          "monitoredAt": "2026-08-23T06:57:20.544Z",
+          "temperature": 12,
+          "humidity": 21,
+          "conditions": "",
+          "risk": "LOW",
+          "dataSource": "IoT Sensor",
+          "notes": "",
+          "recordHash": "e2a84e2fa3b33566502deaf971f55494cbd47303eb3155789a073ad0580b0940"
+        }
+      ]
+    },
+    "HC-2026-0091": {
+      "batchID": "HC-2026-0091",
+      "boxID": "Box1",
+      "status": "LAB_FAILED",
+      "variety": "Multifloral (Mixed)",
+      "createdAt": "2026-08-23T14:28:50.205Z",
+      "harvest": {
+        "beekeeperID": "Beekeeper",
+        "harvestMethod": "hive",
+        "quantity": 30,
+        "unit": "kg",
+        "moisture": 15,
+        "gps": {
+          "lat": 20.5937,
+          "lng": 78.9629
+        },
+        "locationName": "Chennai",
+        "harvestedAt": "2026-08-23T14:28:49.360Z",
+        "evidenceHash": "sha256:ad8b357d8d63a025fd96d146e26a33a4584f3d521c9c23d046222a3673ee0008",
+        "evidenceId": null,
+        "notes": "",
+        "recordHash": "6ded6b92ff554a39b5695fb3965618de43cddd31a581d10d69d57bf8dcc70b4e"
+      },
+      "collection": {
+        "collectorID": "Collector01",
+        "gps": {
+          "lat": 20.5937,
+          "lng": 78.9629
+        },
+        "locationName": "",
+        "quantityReceived": 30,
+        "packageCondition": "Good",
+        "evidenceHash": "sha256:b670e503b8fe37267fb4555e8127a8391da34122726c52787f92288b6ef1b9fc",
+        "evidenceId": null,
+        "notes": "",
+        "recordHash": "98d47eaf83448e4956f2457dc88d048d8af25baa3ec44a185bddc5a49032a2f9"
+      },
+      "lab": {
+        "labID": "Lab012",
+        "sampleID": "SMP-HC-2026-0091",
+        "gps": {
+          "lat": 20.5937,
+          "lng": 78.9629
+        },
+        "locationName": "",
+        "values": {
+          "moisture": 12,
+          "hmf": 25,
+          "freeAcidity": 25,
+          "ph": 5,
+          "reducingSugars": 66,
+          "sucrose": 4,
+          "diastase": 5,
+          "conductivity": 0.4,
+          "adulteration": "absent",
+          "pollenIdentity": "match"
+        },
+        "results": [
+          {
+            "key": "moisture",
+            "label": "Moisture",
+            "value": 12,
+            "unit": "%",
+            "refRange": "≤ 20",
+            "result": "PASS",
+            "critical": true
+          },
+          {
+            "key": "hmf",
+            "label": "HMF",
+            "value": 25,
+            "unit": "mg/kg",
+            "refRange": "≤ 80",
+            "result": "PASS",
+            "critical": true
+          },
+          {
+            "key": "freeAcidity",
+            "label": "Free Acidity",
+            "value": 25,
+            "unit": "meq/kg",
+            "refRange": "≤ 50",
+            "result": "PASS",
+            "critical": false
+          },
+          {
+            "key": "ph",
+            "label": "pH",
+            "value": 5,
+            "unit": "",
+            "refRange": "3.4 – 6.1",
+            "result": "PASS",
+            "critical": false
+          },
+          {
+            "key": "reducingSugars",
+            "label": "Reducing Sugars",
+            "value": 66,
+            "unit": "%",
+            "refRange": "≥ 65",
+            "result": "PASS",
+            "critical": true
+          },
+          {
+            "key": "sucrose",
+            "label": "Sucrose",
+            "value": 4,
+            "unit": "%",
+            "refRange": "≤ 5",
+            "result": "PASS",
+            "critical": true
+          },
+          {
+            "key": "diastase",
+            "label": "Diastase Activity",
+            "value": 5,
+            "unit": "DN",
+            "refRange": "≥ 8",
+            "result": "FAIL",
+            "critical": false
+          },
+          {
+            "key": "conductivity",
+            "label": "Electrical Conductivity",
+            "value": 0.4,
+            "unit": "mS/cm",
+            "refRange": "≤ 0.8",
+            "result": "PASS",
+            "critical": false
+          },
+          {
+            "key": "adulteration",
+            "label": "Adulteration (C4 sugar)",
+            "value": "absent",
+            "unit": "",
+            "refRange": "absent",
+            "result": "PASS",
+            "critical": true
+          },
+          {
+            "key": "pollenIdentity",
+            "label": "Pollen / Identity",
+            "value": "match",
+            "unit": "",
+            "refRange": "match",
+            "result": "PASS",
+            "critical": false
+          }
+        ],
+        "overall": "FAIL",
+        "remarks": "",
+        "evidenceHash": "sha256:d30378014888f5d3c79f7b57ec1141681ead9183f4fbec7c3461de1f07dbd1fe",
+        "evidenceId": null,
+        "recordHash": "f85a437e9e3bfcb00bf026bd33d5114f14bd4f24f073bb14ac32b0b85f2c84a1"
+      }
+    }
+  },
+  "products": {
+    "HC-PROD-2026-0001": "HC-2026-0022",
+    "HC-PROD-2026-0002": "HC-2026-0076"
+  },
+  "evidence": {
+    "EV-0001": {
+      "evidenceId": "EV-0001",
+      "batchID": "HC-2026-0006",
+      "stage": "harvest",
+      "fileName": "Untitled Diagram.drawio (3).png",
+      "fileType": "image/png",
+      "fileHash": "sha256:290694406bbaec8f9c15db37af49a5e24fd4e2f1fa61888d0ec085f42bd8bc33",
+      "storageRef": "demo-290694406bbaec8f9c15db37af49a5e24fd4e2f1fa61",
+      "ipfsCid": "demo-290694406bbaec8f9c15db37af49a5e24fd4e2f1fa61",
+      "gps": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "uploaderRole": "beekeeper",
+      "timestamp": "2026-08-22T13:18:34.793Z"
+    },
+    "EV-0002": {
+      "evidenceId": "EV-0002",
+      "batchID": "HC-2026-0022",
+      "stage": "harvest",
+      "fileName": "Untitled Diagram.drawio (1).png",
+      "fileType": "image/png",
+      "fileHash": "sha256:381fd9c05f2374256270002528269f9edd85703f13eeb301417ccc14e71946d9",
+      "storageRef": "demo-381fd9c05f2374256270002528269f9edd85703f13ee",
+      "ipfsCid": "demo-381fd9c05f2374256270002528269f9edd85703f13ee",
+      "gps": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "uploaderRole": "beekeeper",
+      "timestamp": "2026-08-22T13:21:39.140Z"
+    },
+    "EV-0003": {
+      "evidenceId": "EV-0003",
+      "batchID": "HC-2026-0022",
+      "stage": "collection",
+      "fileName": "Untitled Diagram.drawio (2).png",
+      "fileType": "image/png",
+      "fileHash": "sha256:b2f3e2172e88262bd43e86ab232bdee92098ab520e0d820458062df47e7a6e46",
+      "storageRef": "demo-b2f3e2172e88262bd43e86ab232bdee92098ab520e0d",
+      "ipfsCid": "demo-b2f3e2172e88262bd43e86ab232bdee92098ab520e0d",
+      "gps": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "uploaderRole": "wild_collector",
+      "timestamp": "2026-08-22T13:22:48.845Z"
+    },
+    "EV-0004": {
+      "evidenceId": "EV-0004",
+      "batchID": "HC-2026-0066",
+      "stage": "harvest",
+      "fileName": "Untitled Diagram.drawio.png",
+      "fileType": "image/png",
+      "fileHash": "sha256:2dc52cdabd4c3c667dbc8b4467ce5e313b01cd2d9b78bae8db949b46a201ade3",
+      "storageRef": "demo-2dc52cdabd4c3c667dbc8b4467ce5e313b01cd2d9b78",
+      "ipfsCid": "demo-2dc52cdabd4c3c667dbc8b4467ce5e313b01cd2d9b78",
+      "gps": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "uploaderRole": "beekeeper",
+      "timestamp": "2026-08-22T16:41:09.038Z"
+    },
+    "EV-0005": {
+      "evidenceId": "EV-0005",
+      "batchID": "HC-2026-0068",
+      "stage": "harvest",
+      "fileName": "111.jpeg",
+      "fileType": "image/jpeg",
+      "fileHash": "sha256:950ea65a3ef848573e2428b3538f096a871516c0ccc004148754a6c385f9294a",
+      "storageRef": "demo-950ea65a3ef848573e2428b3538f096a871516c0ccc0",
+      "ipfsCid": "demo-950ea65a3ef848573e2428b3538f096a871516c0ccc0",
+      "gps": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "uploaderRole": "beekeeper",
+      "timestamp": "2026-08-22T16:42:02.590Z"
+    },
+    "EV-0006": {
+      "evidenceId": "EV-0006",
+      "batchID": "HC-2026-0068",
+      "stage": "collection",
+      "fileName": "icon.png",
+      "fileType": "image/png",
+      "fileHash": "sha256:f4469eade9a26e4ea9275e3268f6ba6547ef94f99df9f268b33b904f53348816",
+      "storageRef": "demo-f4469eade9a26e4ea9275e3268f6ba6547ef94f99df9",
+      "ipfsCid": "demo-f4469eade9a26e4ea9275e3268f6ba6547ef94f99df9",
+      "gps": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "uploaderRole": "wild_collector",
+      "timestamp": "2026-08-22T16:42:29.821Z"
+    },
+    "EV-0007": {
+      "evidenceId": "EV-0007",
+      "batchID": "HC-2026-0068",
+      "stage": "lab",
+      "fileName": "logo(1).png",
+      "fileType": "image/png",
+      "fileHash": "sha256:894cf04f129247a4e0bf142acdf876c9249b9365d1588cadf7b5a4ff2abafe79",
+      "storageRef": "demo-894cf04f129247a4e0bf142acdf876c9249b9365d158",
+      "ipfsCid": "demo-894cf04f129247a4e0bf142acdf876c9249b9365d158",
+      "gps": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "uploaderRole": "lab",
+      "timestamp": "2026-08-22T16:42:56.309Z"
+    },
+    "EV-0008": {
+      "evidenceId": "EV-0008",
+      "batchID": "HC-2026-0022",
+      "stage": "processing",
+      "fileName": "Gemini_Generated_Image_j52bgej52bgej52b.png",
+      "fileType": "image/png",
+      "fileHash": "sha256:d8d2c021cb1c11802861a2bb466700c25908a680ddac63d4453e5e8ad33a0145",
+      "storageRef": "demo-d8d2c021cb1c11802861a2bb466700c25908a680ddac",
+      "ipfsCid": "demo-d8d2c021cb1c11802861a2bb466700c25908a680ddac",
+      "gps": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "uploaderRole": "processor",
+      "timestamp": "2026-08-22T16:44:33.717Z"
+    },
+    "EV-0009": {
+      "evidenceId": "EV-0009",
+      "batchID": "HC-2026-0022",
+      "stage": "export",
+      "fileName": "repository-open-graph-template.png",
+      "fileType": "image/png",
+      "fileHash": "sha256:5259d6e413242c63afe88027122eed783612ff9a9e48b9a9c51313f6bf66fb94",
+      "storageRef": "demo-5259d6e413242c63afe88027122eed783612ff9a9e48",
+      "ipfsCid": "demo-5259d6e413242c63afe88027122eed783612ff9a9e48",
+      "gps": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "uploaderRole": "exporter",
+      "timestamp": "2026-08-22T16:45:00.245Z"
+    },
+    "EV-0010": {
+      "evidenceId": "EV-0010",
+      "batchID": "HC-2026-0076",
+      "stage": "harvest",
+      "fileName": "logo.png",
+      "fileType": "image/png",
+      "fileHash": "sha256:78ed5dbc75ce5f70551ca6441d7d39fb9ee281a5de11598567c54cc1a9faccbb",
+      "storageRef": "QmbFXHbVCmMed4snyzwvXnPZ1M6XFPUWrN7h1yRUcnBdnA",
+      "ipfsCid": "QmbFXHbVCmMed4snyzwvXnPZ1M6XFPUWrN7h1yRUcnBdnA",
+      "gps": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "uploaderRole": "beekeeper",
+      "timestamp": "2026-08-23T06:49:46.358Z"
+    },
+    "EV-0011": {
+      "evidenceId": "EV-0011",
+      "batchID": "HC-2026-0076",
+      "stage": "collection",
+      "fileName": "ChatGPT Image May 18, 2026, 01_23_08 PM.png",
+      "fileType": "image/png",
+      "fileHash": "sha256:d65d0129b4bbdba732c6a675adcd2c1f1a3e18ffa4e448685bb7c3b245fb2c50",
+      "storageRef": "QmWBPVsApNECbqbbu3PjQg6gALHY8eBhPpeWKZnp9gGVvY",
+      "ipfsCid": "QmWBPVsApNECbqbbu3PjQg6gALHY8eBhPpeWKZnp9gGVvY",
+      "gps": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "uploaderRole": "wild_collector",
+      "timestamp": "2026-08-23T06:50:57.477Z"
+    },
+    "EV-0012": {
+      "evidenceId": "EV-0012",
+      "batchID": "HC-2026-0076",
+      "stage": "lab",
+      "fileName": "2.webp",
+      "fileType": "image/webp",
+      "fileHash": "sha256:9d10786096e3fc2d1d9781e9d72edc9bdd8a09153b2f6714768e3b453106c056",
+      "storageRef": "QmceGUfWMHMN1LCAoWYx61H9BdDfwv7ApuecFJKYx51VdD",
+      "ipfsCid": "QmceGUfWMHMN1LCAoWYx61H9BdDfwv7ApuecFJKYx51VdD",
+      "gps": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "uploaderRole": "lab",
+      "timestamp": "2026-08-23T06:52:53.997Z"
+    },
+    "EV-0013": {
+      "evidenceId": "EV-0013",
+      "batchID": "HC-2026-0076",
+      "stage": "processing",
+      "fileName": "student-3.jpeg",
+      "fileType": "image/jpeg",
+      "fileHash": "sha256:5bff7ec28c8919f7c6f12105930d5c4a65f469971ab18c226571ba99bb7d2631",
+      "storageRef": "QmNkA4D8PvnTaUSZhDtaYtSA5KKQk9uWvG2YFmRFBL5AnV",
+      "ipfsCid": "QmNkA4D8PvnTaUSZhDtaYtSA5KKQk9uWvG2YFmRFBL5AnV",
+      "gps": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "uploaderRole": "processor",
+      "timestamp": "2026-08-23T06:54:49.252Z"
+    },
+    "EV-0014": {
+      "evidenceId": "EV-0014",
+      "batchID": "HC-2026-0076",
+      "stage": "processing",
+      "fileName": "Screenshot 2025-11-19 081811 (1).png",
+      "fileType": "image/png",
+      "fileHash": "sha256:c07c5044614e8a6e88633282c9e20731d45e258805acde36a785bdbb7f624c4a",
+      "storageRef": "QmWBDa1CaPmxBdM1aGHa4hYy2sxi9Hhhwq82mxuLUyNyQe",
+      "ipfsCid": "QmWBDa1CaPmxBdM1aGHa4hYy2sxi9Hhhwq82mxuLUyNyQe",
+      "gps": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "uploaderRole": "processor",
+      "timestamp": "2026-08-23T06:55:17.476Z"
+    },
+    "EV-0015": {
+      "evidenceId": "EV-0015",
+      "batchID": "HC-2026-0076",
+      "stage": "export",
+      "fileName": "12_exp.png",
+      "fileType": "image/png",
+      "fileHash": "sha256:31dee766bcb1ac5cfef6c79f9ea6fbf78af046e1644a52334ba73eb9cc9502a8",
+      "storageRef": "QmR6FHVKxxHfqCFfsb4LzSwiQd5mk7Cs8Mk63wvw6AiEZp",
+      "ipfsCid": "QmR6FHVKxxHfqCFfsb4LzSwiQd5mk7Cs8Mk63wvw6AiEZp",
+      "gps": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "uploaderRole": "exporter",
+      "timestamp": "2026-08-23T06:56:35.334Z"
+    },
+    "EV-0016": {
+      "evidenceId": "EV-0016",
+      "batchID": "HC-2026-0091",
+      "stage": "harvest",
+      "fileName": "17874952451486215973559025564005.jpg",
+      "fileType": "image/jpeg",
+      "fileHash": "sha256:ad8b357d8d63a025fd96d146e26a33a4584f3d521c9c23d046222a3673ee0008",
+      "storageRef": "Qmej1tWRtwbSV5S5RbRwaQTG2mZ2AR9vysehLVpsx3jz4Z",
+      "ipfsCid": "Qmej1tWRtwbSV5S5RbRwaQTG2mZ2AR9vysehLVpsx3jz4Z",
+      "gps": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "uploaderRole": "beekeeper",
+      "timestamp": "2026-08-23T14:28:46.335Z"
+    },
+    "EV-0017": {
+      "evidenceId": "EV-0017",
+      "batchID": "HC-2026-0091",
+      "stage": "collection",
+      "fileName": "17874953870168380782150238427499.jpg",
+      "fileType": "image/jpeg",
+      "fileHash": "sha256:b670e503b8fe37267fb4555e8127a8391da34122726c52787f92288b6ef1b9fc",
+      "storageRef": "QmU1qKn6VwvMEC6VBkwY2Ud6GGZVDSXFi5W3QDz7RJEbWs",
+      "ipfsCid": "QmU1qKn6VwvMEC6VBkwY2Ud6GGZVDSXFi5W3QDz7RJEbWs",
+      "gps": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "uploaderRole": "wild_collector",
+      "timestamp": "2026-08-23T14:30:41.920Z"
+    },
+    "EV-0018": {
+      "evidenceId": "EV-0018",
+      "batchID": "HC-2026-0091",
+      "stage": "lab",
+      "fileName": "17874955428377143293077829277724.jpg",
+      "fileType": "image/jpeg",
+      "fileHash": "sha256:d30378014888f5d3c79f7b57ec1141681ead9183f4fbec7c3461de1f07dbd1fe",
+      "storageRef": "QmVFRbiGARY8NZZtK9zhZpviQLbxHjHeccGRc7TxXafYZf",
+      "ipfsCid": "QmVFRbiGARY8NZZtK9zhZpviQLbxHjHeccGRc7TxXafYZf",
+      "gps": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "uploaderRole": "lab",
+      "timestamp": "2026-08-23T14:33:07.447Z"
+    }
+  },
+  "evidenceByHash": {
+    "sha256:290694406bbaec8f9c15db37af49a5e24fd4e2f1fa61888d0ec085f42bd8bc33": "EV-0001",
+    "sha256:381fd9c05f2374256270002528269f9edd85703f13eeb301417ccc14e71946d9": "EV-0002",
+    "sha256:b2f3e2172e88262bd43e86ab232bdee92098ab520e0d820458062df47e7a6e46": "EV-0003",
+    "sha256:2dc52cdabd4c3c667dbc8b4467ce5e313b01cd2d9b78bae8db949b46a201ade3": "EV-0004",
+    "sha256:950ea65a3ef848573e2428b3538f096a871516c0ccc004148754a6c385f9294a": "EV-0005",
+    "sha256:f4469eade9a26e4ea9275e3268f6ba6547ef94f99df9f268b33b904f53348816": "EV-0006",
+    "sha256:894cf04f129247a4e0bf142acdf876c9249b9365d1588cadf7b5a4ff2abafe79": "EV-0007",
+    "sha256:d8d2c021cb1c11802861a2bb466700c25908a680ddac63d4453e5e8ad33a0145": "EV-0008",
+    "sha256:5259d6e413242c63afe88027122eed783612ff9a9e48b9a9c51313f6bf66fb94": "EV-0009",
+    "sha256:78ed5dbc75ce5f70551ca6441d7d39fb9ee281a5de11598567c54cc1a9faccbb": "EV-0010",
+    "sha256:d65d0129b4bbdba732c6a675adcd2c1f1a3e18ffa4e448685bb7c3b245fb2c50": "EV-0011",
+    "sha256:9d10786096e3fc2d1d9781e9d72edc9bdd8a09153b2f6714768e3b453106c056": "EV-0012",
+    "sha256:5bff7ec28c8919f7c6f12105930d5c4a65f469971ab18c226571ba99bb7d2631": "EV-0013",
+    "sha256:c07c5044614e8a6e88633282c9e20731d45e258805acde36a785bdbb7f624c4a": "EV-0014",
+    "sha256:31dee766bcb1ac5cfef6c79f9ea6fbf78af046e1644a52334ba73eb9cc9502a8": "EV-0015",
+    "sha256:ad8b357d8d63a025fd96d146e26a33a4584f3d521c9c23d046222a3673ee0008": "EV-0016",
+    "sha256:b670e503b8fe37267fb4555e8127a8391da34122726c52787f92288b6ef1b9fc": "EV-0017",
+    "sha256:d30378014888f5d3c79f7b57ec1141681ead9183f4fbec7c3461de1f07dbd1fe": "EV-0018"
+  },
+  "chain": {
+    "HC-2026-0006": [
+      {
+        "seq": 0,
+        "phase": "HARVEST",
+        "actor": "ewqeqwe",
+        "role": "beekeeper",
+        "timestamp": "2026-08-22T13:18:37.461Z",
+        "dataHash": "71c3650b303c1fa8cdc673bb696615e7495d982834682a828aa75ac33f358e03",
+        "prevHash": "GENESIS",
+        "hash": "762e6603f418ae7f0a4a3786798540a916a564da76d01bb0f9bd06d3070bbaec"
+      }
+    ],
+    "HC-2026-0022": [
+      {
+        "seq": 0,
+        "phase": "HARVEST",
+        "actor": "BK-KVIC-8492",
+        "role": "beekeeper",
+        "timestamp": "2026-08-22T13:21:41.046Z",
+        "dataHash": "c233d874ccc8576836f5c4c62377f97db88751792224314a05057ebb28ba7e39",
+        "prevHash": "GENESIS",
+        "hash": "7df234de884c7b71bb1be93a6649d1f4eda28b46a535942cfac6443760d8d239"
+      },
+      {
+        "seq": 1,
+        "phase": "COLLECTION",
+        "actor": "WHC-KL-014",
+        "role": "wild_collector",
+        "timestamp": "2026-08-22T13:22:57.089Z",
+        "dataHash": "f0800b7bf3114eaffceef042bb472abd18945362a14719620c29f450c0cb2d3f",
+        "prevHash": "7df234de884c7b71bb1be93a6649d1f4eda28b46a535942cfac6443760d8d239",
+        "hash": "6ac6576787f01159da3d014b49b4f3b76e978e12e8be5889dc43d116c2d60d5e"
+      },
+      {
+        "seq": 2,
+        "phase": "LAB_TEST",
+        "actor": "LAB-FSSAI-101",
+        "role": "lab",
+        "timestamp": "2026-08-22T13:27:35.559Z",
+        "dataHash": "b6e24a99e51d7580dc1038eccdfd78ef4ed630ceb74ca9a60bf2753f4865c666",
+        "prevHash": "6ac6576787f01159da3d014b49b4f3b76e978e12e8be5889dc43d116c2d60d5e",
+        "hash": "ef26b65c40a00cf5c7e673e2d176c00b49bdbfa08661eafe934476fae2ffa3e7"
+      },
+      {
+        "seq": 3,
+        "phase": "PROCESSING",
+        "actor": "ddsa",
+        "role": "processor",
+        "timestamp": "2026-08-22T16:44:35.575Z",
+        "dataHash": "9d56e905f17caef089b26380dacc049c4ae7a7be16d9f70c88253c0719e15c50",
+        "prevHash": "ef26b65c40a00cf5c7e673e2d176c00b49bdbfa08661eafe934476fae2ffa3e7",
+        "hash": "821c2e79d16ebb05b1d7f2ca925595810e13e8fefe0428f3d22c7f9e37267ac2"
+      },
+      {
+        "seq": 4,
+        "phase": "EXPORT",
+        "actor": "fsff",
+        "role": "exporter",
+        "timestamp": "2026-08-22T16:45:06.971Z",
+        "dataHash": "a82da299ab7867a5bfdb6e81c1fa1d99edb9f78b6dcee0e504e2655db3a994f4",
+        "prevHash": "821c2e79d16ebb05b1d7f2ca925595810e13e8fefe0428f3d22c7f9e37267ac2",
+        "hash": "63e950ef3508482dd2c953499da7462be5488d65ada067fbcbe52a5af7de4161"
+      },
+      {
+        "seq": 5,
+        "phase": "ENVIRONMENT",
+        "actor": "cdc",
+        "role": "environment",
+        "timestamp": "2026-08-22T16:45:38.250Z",
+        "dataHash": "486668d5339dfb34a2a6344bdc42e3417b19f77364001ad0b32f14b2e9aa733d",
+        "prevHash": "63e950ef3508482dd2c953499da7462be5488d65ada067fbcbe52a5af7de4161",
+        "hash": "2fc9d169d2876e62dda75edae4aaff5874040c7fb55ef42714214e7c56ed5db4"
+      }
+    ],
+    "HC-2026-0066": [
+      {
+        "seq": 0,
+        "phase": "HARVEST",
+        "actor": "qwewee",
+        "role": "beekeeper",
+        "timestamp": "2026-08-22T16:41:17.334Z",
+        "dataHash": "dd889aa24e9cafd95cd41bbb019a3cc5ec962482f9cc48262b773aed64101f2b",
+        "prevHash": "GENESIS",
+        "hash": "9ec58a81c19e7efde04e3c4b1dc76e550d6baa8a879969e2f766a48d5f8c0c75"
+      }
+    ],
+    "HC-2026-0068": [
+      {
+        "seq": 0,
+        "phase": "HARVEST",
+        "actor": "dwewe",
+        "role": "beekeeper",
+        "timestamp": "2026-08-22T16:42:04.152Z",
+        "dataHash": "4b050b95443848ae963e18d1bdf886713242bf2a1ea44f8800be7ca53e632dbe",
+        "prevHash": "GENESIS",
+        "hash": "7e2096076ec676842fd45e0b44e4ea3bbd9a1258b1b5a251226bf788b8f41bee"
+      },
+      {
+        "seq": 1,
+        "phase": "COLLECTION",
+        "actor": "eerwr",
+        "role": "wild_collector",
+        "timestamp": "2026-08-22T16:42:30.976Z",
+        "dataHash": "260bfeeff3951a6716aafc0db739e707ff233a59595cd3f5a9f557b1b8cb5bed",
+        "prevHash": "7e2096076ec676842fd45e0b44e4ea3bbd9a1258b1b5a251226bf788b8f41bee",
+        "hash": "c894942482c0e33c8393eef2411bc23a42e48940c93961745ef43b3b0cd409be"
+      },
+      {
+        "seq": 2,
+        "phase": "LAB_TEST",
+        "actor": "fdef",
+        "role": "lab",
+        "timestamp": "2026-08-22T16:42:57.838Z",
+        "dataHash": "a7b2b927ca0113ff86110721d75f9b9548cf5055b2c72b8f4adf9f91f8beb7c0",
+        "prevHash": "c894942482c0e33c8393eef2411bc23a42e48940c93961745ef43b3b0cd409be",
+        "hash": "4544ff9b5d963cd47af445efdfa6dde69891c0b44b859b52042cdce906d2f684"
+      }
+    ],
+    "HC-2026-0076": [
+      {
+        "seq": 0,
+        "phase": "HARVEST",
+        "actor": "KVIC-HIVE-1222",
+        "role": "beekeeper",
+        "timestamp": "2026-08-23T06:49:50.197Z",
+        "dataHash": "2d383ed3317d0fc632074905d055fa0eaca5c6bca329eed96d8b5d5a88adb726",
+        "prevHash": "GENESIS",
+        "hash": "8e5ae79a9469e897da29b0e3e5d0a06617a8fbb2ee6a98a98689005bc75f997f"
+      },
+      {
+        "seq": 1,
+        "phase": "COLLECTION",
+        "actor": "whag-23",
+        "role": "wild_collector",
+        "timestamp": "2026-08-23T06:51:24.844Z",
+        "dataHash": "8875b4beaafde11929744ecfcd97aa9f327e3ddc8d7c001d8d0dd4121f722101",
+        "prevHash": "8e5ae79a9469e897da29b0e3e5d0a06617a8fbb2ee6a98a98689005bc75f997f",
+        "hash": "efa81eaddf09baff19e10dc01ea14421b8e7c0cf983d113491617163f23811d5"
+      },
+      {
+        "seq": 2,
+        "phase": "LAB_TEST",
+        "actor": "lab-0912",
+        "role": "lab",
+        "timestamp": "2026-08-23T06:52:56.120Z",
+        "dataHash": "e288b8382b07f704a137bc4221e440ffee9406a7ab49ada875365ca53194bb0a",
+        "prevHash": "efa81eaddf09baff19e10dc01ea14421b8e7c0cf983d113491617163f23811d5",
+        "hash": "f1f0b1479f1dc14082089865129f241cd88004188ab03f8217602c8024f7938c"
+      },
+      {
+        "seq": 3,
+        "phase": "PROCESSING",
+        "actor": "PRC-12",
+        "role": "processor",
+        "timestamp": "2026-08-23T06:55:18.767Z",
+        "dataHash": "31d5d72f156db462cc54ec046f46c48c99a1b03f788a73b4f95011a5260fadda",
+        "prevHash": "f1f0b1479f1dc14082089865129f241cd88004188ab03f8217602c8024f7938c",
+        "hash": "f4714c5a081f625aff3e4546fc9d9f04ad26049b0ea580ff05416414b556d6c1"
+      },
+      {
+        "seq": 4,
+        "phase": "EXPORT",
+        "actor": "wqeq12",
+        "role": "exporter",
+        "timestamp": "2026-08-23T06:56:37.245Z",
+        "dataHash": "662e750aa44976773e538bedd819924e29b3f27745c95759399395d9c44a22f1",
+        "prevHash": "f4714c5a081f625aff3e4546fc9d9f04ad26049b0ea580ff05416414b556d6c1",
+        "hash": "02c23d2988fd56846d59b7d6551668ed3c8f07d05a317b3398017d8c79e683c6"
+      },
+      {
+        "seq": 5,
+        "phase": "ENVIRONMENT",
+        "actor": "env23",
+        "role": "environment",
+        "timestamp": "2026-08-23T06:57:20.558Z",
+        "dataHash": "08f512d02a4b0a712e9e2b73bce5348386080fbf495f806109c8caf8ad22fde0",
+        "prevHash": "02c23d2988fd56846d59b7d6551668ed3c8f07d05a317b3398017d8c79e683c6",
+        "hash": "e2a84e2fa3b33566502deaf971f55494cbd47303eb3155789a073ad0580b0940"
+      }
+    ],
+    "HC-2026-0091": [
+      {
+        "seq": 0,
+        "phase": "HARVEST",
+        "actor": "Beekeeper",
+        "role": "beekeeper",
+        "timestamp": "2026-08-23T14:28:50.206Z",
+        "dataHash": "604c2bf515f8ab42767e71371192ad0a030094cc306ab810412812b71c924b2f",
+        "prevHash": "GENESIS",
+        "hash": "6ded6b92ff554a39b5695fb3965618de43cddd31a581d10d69d57bf8dcc70b4e"
+      },
+      {
+        "seq": 1,
+        "phase": "COLLECTION",
+        "actor": "Collector01",
+        "role": "wild_collector",
+        "timestamp": "2026-08-23T14:30:58.858Z",
+        "dataHash": "c2f3a1c895d27bbd4a3b40f07b0b009f5f8b70fd70bd1be69d58128ee6d57b01",
+        "prevHash": "6ded6b92ff554a39b5695fb3965618de43cddd31a581d10d69d57bf8dcc70b4e",
+        "hash": "98d47eaf83448e4956f2457dc88d048d8af25baa3ec44a185bddc5a49032a2f9"
+      },
+      {
+        "seq": 2,
+        "phase": "LAB_TEST",
+        "actor": "Lab012",
+        "role": "lab",
+        "timestamp": "2026-08-23T14:33:41.182Z",
+        "dataHash": "861731d3f657798783ddf72a943cba83b9e015837f2a838c5f7da02c5aa03b63",
+        "prevHash": "98d47eaf83448e4956f2457dc88d048d8af25baa3ec44a185bddc5a49032a2f9",
+        "hash": "f85a437e9e3bfcb00bf026bd33d5114f14bd4f24f073bb14ac32b0b85f2c84a1"
+      }
+    ]
+  },
+  "events": {
+    "HC-2026-0006": [
+      {
+        "eventId": "EVT-HC-2026-0006-0",
+        "batchID": "HC-2026-0006",
+        "eventType": "HARVEST",
+        "actor": "ewqeqwe",
+        "role": "beekeeper",
+        "timestamp": "2026-08-22T13:18:37.461Z",
+        "payloadHash": "71c3650b303c1fa8cdc673bb696615e7495d982834682a828aa75ac33f358e03",
+        "evidenceHash": "sha256:290694406bbaec8f9c15db37af49a5e24fd4e2f1fa61888d0ec085f42bd8bc33",
+        "ipfsCid": null,
+        "recordHash": "762e6603f418ae7f0a4a3786798540a916a564da76d01bb0f9bd06d3070bbaec",
+        "prevHash": "GENESIS",
+        "blockchainTxHash": null,
+        "blockchainNetwork": null,
+        "blockNumber": null,
+        "status": "PENDING_CHAIN"
+      }
+    ],
+    "HC-2026-0022": [
+      {
+        "eventId": "EVT-HC-2026-0022-0",
+        "batchID": "HC-2026-0022",
+        "eventType": "HARVEST",
+        "actor": "BK-KVIC-8492",
+        "role": "beekeeper",
+        "timestamp": "2026-08-22T13:21:41.046Z",
+        "payloadHash": "c233d874ccc8576836f5c4c62377f97db88751792224314a05057ebb28ba7e39",
+        "evidenceHash": "sha256:381fd9c05f2374256270002528269f9edd85703f13eeb301417ccc14e71946d9",
+        "ipfsCid": null,
+        "recordHash": "7df234de884c7b71bb1be93a6649d1f4eda28b46a535942cfac6443760d8d239",
+        "prevHash": "GENESIS",
+        "blockchainTxHash": null,
+        "blockchainNetwork": null,
+        "blockNumber": null,
+        "status": "DEMO",
+        "contractAddress": null,
+        "explorerUrl": null,
+        "chainError": null
+      },
+      {
+        "eventId": "EVT-HC-2026-0022-1",
+        "batchID": "HC-2026-0022",
+        "eventType": "COLLECTION",
+        "actor": "WHC-KL-014",
+        "role": "wild_collector",
+        "timestamp": "2026-08-22T13:22:57.089Z",
+        "payloadHash": "f0800b7bf3114eaffceef042bb472abd18945362a14719620c29f450c0cb2d3f",
+        "evidenceHash": "sha256:b2f3e2172e88262bd43e86ab232bdee92098ab520e0d820458062df47e7a6e46",
+        "ipfsCid": null,
+        "recordHash": "6ac6576787f01159da3d014b49b4f3b76e978e12e8be5889dc43d116c2d60d5e",
+        "prevHash": "7df234de884c7b71bb1be93a6649d1f4eda28b46a535942cfac6443760d8d239",
+        "blockchainTxHash": null,
+        "blockchainNetwork": null,
+        "blockNumber": null,
+        "status": "DEMO",
+        "contractAddress": null,
+        "explorerUrl": null,
+        "chainError": null
+      },
+      {
+        "eventId": "EVT-HC-2026-0022-2",
+        "batchID": "HC-2026-0022",
+        "eventType": "LAB_TEST",
+        "actor": "LAB-FSSAI-101",
+        "role": "lab",
+        "timestamp": "2026-08-22T13:27:35.559Z",
+        "payloadHash": "b6e24a99e51d7580dc1038eccdfd78ef4ed630ceb74ca9a60bf2753f4865c666",
+        "evidenceHash": null,
+        "ipfsCid": null,
+        "recordHash": "ef26b65c40a00cf5c7e673e2d176c00b49bdbfa08661eafe934476fae2ffa3e7",
+        "prevHash": "6ac6576787f01159da3d014b49b4f3b76e978e12e8be5889dc43d116c2d60d5e",
+        "blockchainTxHash": null,
+        "blockchainNetwork": null,
+        "blockNumber": null,
+        "status": "DEMO",
+        "contractAddress": null,
+        "explorerUrl": null,
+        "chainError": null
+      },
+      {
+        "eventId": "EVT-HC-2026-0022-3",
+        "batchID": "HC-2026-0022",
+        "eventType": "PROCESSING",
+        "actor": "ddsa",
+        "role": "processor",
+        "timestamp": "2026-08-22T16:44:35.575Z",
+        "payloadHash": "9d56e905f17caef089b26380dacc049c4ae7a7be16d9f70c88253c0719e15c50",
+        "evidenceHash": "sha256:d8d2c021cb1c11802861a2bb466700c25908a680ddac63d4453e5e8ad33a0145",
+        "ipfsCid": null,
+        "recordHash": "821c2e79d16ebb05b1d7f2ca925595810e13e8fefe0428f3d22c7f9e37267ac2",
+        "prevHash": "ef26b65c40a00cf5c7e673e2d176c00b49bdbfa08661eafe934476fae2ffa3e7",
+        "blockchainTxHash": null,
+        "blockchainNetwork": null,
+        "blockNumber": null,
+        "status": "DEMO",
+        "contractAddress": null,
+        "explorerUrl": null,
+        "chainError": null
+      },
+      {
+        "eventId": "EVT-HC-2026-0022-4",
+        "batchID": "HC-2026-0022",
+        "eventType": "EXPORT",
+        "actor": "fsff",
+        "role": "exporter",
+        "timestamp": "2026-08-22T16:45:06.971Z",
+        "payloadHash": "a82da299ab7867a5bfdb6e81c1fa1d99edb9f78b6dcee0e504e2655db3a994f4",
+        "evidenceHash": "sha256:5259d6e413242c63afe88027122eed783612ff9a9e48b9a9c51313f6bf66fb94",
+        "ipfsCid": null,
+        "recordHash": "63e950ef3508482dd2c953499da7462be5488d65ada067fbcbe52a5af7de4161",
+        "prevHash": "821c2e79d16ebb05b1d7f2ca925595810e13e8fefe0428f3d22c7f9e37267ac2",
+        "blockchainTxHash": null,
+        "blockchainNetwork": null,
+        "blockNumber": null,
+        "status": "DEMO",
+        "contractAddress": null,
+        "explorerUrl": null,
+        "chainError": null
+      },
+      {
+        "eventId": "EVT-HC-2026-0022-5",
+        "batchID": "HC-2026-0022",
+        "eventType": "ENVIRONMENT",
+        "actor": "cdc",
+        "role": "environment",
+        "timestamp": "2026-08-22T16:45:38.250Z",
+        "payloadHash": "486668d5339dfb34a2a6344bdc42e3417b19f77364001ad0b32f14b2e9aa733d",
+        "evidenceHash": null,
+        "ipfsCid": null,
+        "recordHash": "2fc9d169d2876e62dda75edae4aaff5874040c7fb55ef42714214e7c56ed5db4",
+        "prevHash": "63e950ef3508482dd2c953499da7462be5488d65ada067fbcbe52a5af7de4161",
+        "blockchainTxHash": null,
+        "blockchainNetwork": null,
+        "blockNumber": null,
+        "status": "DEMO",
+        "contractAddress": null,
+        "explorerUrl": null,
+        "chainError": null
+      }
+    ],
+    "HC-2026-0066": [
+      {
+        "eventId": "EVT-HC-2026-0066-0",
+        "batchID": "HC-2026-0066",
+        "eventType": "HARVEST",
+        "actor": "qwewee",
+        "role": "beekeeper",
+        "timestamp": "2026-08-22T16:41:17.334Z",
+        "payloadHash": "dd889aa24e9cafd95cd41bbb019a3cc5ec962482f9cc48262b773aed64101f2b",
+        "evidenceHash": "sha256:2dc52cdabd4c3c667dbc8b4467ce5e313b01cd2d9b78bae8db949b46a201ade3",
+        "ipfsCid": null,
+        "recordHash": "9ec58a81c19e7efde04e3c4b1dc76e550d6baa8a879969e2f766a48d5f8c0c75",
+        "prevHash": "GENESIS",
+        "blockchainTxHash": null,
+        "blockchainNetwork": null,
+        "blockNumber": null,
+        "status": "DEMO",
+        "contractAddress": null,
+        "explorerUrl": null,
+        "chainError": null
+      }
+    ],
+    "HC-2026-0068": [
+      {
+        "eventId": "EVT-HC-2026-0068-0",
+        "batchID": "HC-2026-0068",
+        "eventType": "HARVEST",
+        "actor": "dwewe",
+        "role": "beekeeper",
+        "timestamp": "2026-08-22T16:42:04.152Z",
+        "payloadHash": "4b050b95443848ae963e18d1bdf886713242bf2a1ea44f8800be7ca53e632dbe",
+        "evidenceHash": "sha256:950ea65a3ef848573e2428b3538f096a871516c0ccc004148754a6c385f9294a",
+        "ipfsCid": null,
+        "recordHash": "7e2096076ec676842fd45e0b44e4ea3bbd9a1258b1b5a251226bf788b8f41bee",
+        "prevHash": "GENESIS",
+        "blockchainTxHash": null,
+        "blockchainNetwork": null,
+        "blockNumber": null,
+        "status": "DEMO",
+        "contractAddress": null,
+        "explorerUrl": null,
+        "chainError": null
+      },
+      {
+        "eventId": "EVT-HC-2026-0068-1",
+        "batchID": "HC-2026-0068",
+        "eventType": "COLLECTION",
+        "actor": "eerwr",
+        "role": "wild_collector",
+        "timestamp": "2026-08-22T16:42:30.976Z",
+        "payloadHash": "260bfeeff3951a6716aafc0db739e707ff233a59595cd3f5a9f557b1b8cb5bed",
+        "evidenceHash": "sha256:f4469eade9a26e4ea9275e3268f6ba6547ef94f99df9f268b33b904f53348816",
+        "ipfsCid": null,
+        "recordHash": "c894942482c0e33c8393eef2411bc23a42e48940c93961745ef43b3b0cd409be",
+        "prevHash": "7e2096076ec676842fd45e0b44e4ea3bbd9a1258b1b5a251226bf788b8f41bee",
+        "blockchainTxHash": null,
+        "blockchainNetwork": null,
+        "blockNumber": null,
+        "status": "DEMO",
+        "contractAddress": null,
+        "explorerUrl": null,
+        "chainError": null
+      },
+      {
+        "eventId": "EVT-HC-2026-0068-2",
+        "batchID": "HC-2026-0068",
+        "eventType": "LAB_TEST",
+        "actor": "fdef",
+        "role": "lab",
+        "timestamp": "2026-08-22T16:42:57.838Z",
+        "payloadHash": "a7b2b927ca0113ff86110721d75f9b9548cf5055b2c72b8f4adf9f91f8beb7c0",
+        "evidenceHash": "sha256:894cf04f129247a4e0bf142acdf876c9249b9365d1588cadf7b5a4ff2abafe79",
+        "ipfsCid": null,
+        "recordHash": "4544ff9b5d963cd47af445efdfa6dde69891c0b44b859b52042cdce906d2f684",
+        "prevHash": "c894942482c0e33c8393eef2411bc23a42e48940c93961745ef43b3b0cd409be",
+        "blockchainTxHash": null,
+        "blockchainNetwork": null,
+        "blockNumber": null,
+        "status": "DEMO",
+        "contractAddress": null,
+        "explorerUrl": null,
+        "chainError": null
+      }
+    ],
+    "HC-2026-0076": [
+      {
+        "eventId": "EVT-HC-2026-0076-0",
+        "batchID": "HC-2026-0076",
+        "eventType": "HARVEST",
+        "actor": "KVIC-HIVE-1222",
+        "role": "beekeeper",
+        "timestamp": "2026-08-23T06:49:50.197Z",
+        "payloadHash": "2d383ed3317d0fc632074905d055fa0eaca5c6bca329eed96d8b5d5a88adb726",
+        "evidenceHash": "sha256:78ed5dbc75ce5f70551ca6441d7d39fb9ee281a5de11598567c54cc1a9faccbb",
+        "ipfsCid": null,
+        "recordHash": "8e5ae79a9469e897da29b0e3e5d0a06617a8fbb2ee6a98a98689005bc75f997f",
+        "prevHash": "GENESIS",
+        "blockchainTxHash": "0x27e0e3c80f8e42046f0445c1d3bc7a84c05fc000161e18bdd2f08e66f4445f52",
+        "blockchainNetwork": "Ethereum Sepolia",
+        "blockNumber": 11548377,
+        "status": "CONFIRMED",
+        "contractAddress": "0x041A6784780CE499d3e44FD616A3612a58f1f296",
+        "explorerUrl": "https://sepolia.etherscan.io/tx/0x27e0e3c80f8e42046f0445c1d3bc7a84c05fc000161e18bdd2f08e66f4445f52",
+        "chainError": null
+      },
+      {
+        "eventId": "EVT-HC-2026-0076-1",
+        "batchID": "HC-2026-0076",
+        "eventType": "COLLECTION",
+        "actor": "whag-23",
+        "role": "wild_collector",
+        "timestamp": "2026-08-23T06:51:24.844Z",
+        "payloadHash": "8875b4beaafde11929744ecfcd97aa9f327e3ddc8d7c001d8d0dd4121f722101",
+        "evidenceHash": "sha256:d65d0129b4bbdba732c6a675adcd2c1f1a3e18ffa4e448685bb7c3b245fb2c50",
+        "ipfsCid": null,
+        "recordHash": "efa81eaddf09baff19e10dc01ea14421b8e7c0cf983d113491617163f23811d5",
+        "prevHash": "8e5ae79a9469e897da29b0e3e5d0a06617a8fbb2ee6a98a98689005bc75f997f",
+        "blockchainTxHash": "0xccb2ffea09ccc4b2ed87ce1b628bc887f63dd58a871527942bf4b446abb36e73",
+        "blockchainNetwork": "Ethereum Sepolia",
+        "blockNumber": 11548384,
+        "status": "CONFIRMED",
+        "contractAddress": "0x041A6784780CE499d3e44FD616A3612a58f1f296",
+        "explorerUrl": "https://sepolia.etherscan.io/tx/0xccb2ffea09ccc4b2ed87ce1b628bc887f63dd58a871527942bf4b446abb36e73",
+        "chainError": null
+      },
+      {
+        "eventId": "EVT-HC-2026-0076-2",
+        "batchID": "HC-2026-0076",
+        "eventType": "LAB_TEST",
+        "actor": "lab-0912",
+        "role": "lab",
+        "timestamp": "2026-08-23T06:52:56.120Z",
+        "payloadHash": "e288b8382b07f704a137bc4221e440ffee9406a7ab49ada875365ca53194bb0a",
+        "evidenceHash": "sha256:9d10786096e3fc2d1d9781e9d72edc9bdd8a09153b2f6714768e3b453106c056",
+        "ipfsCid": null,
+        "recordHash": "f1f0b1479f1dc14082089865129f241cd88004188ab03f8217602c8024f7938c",
+        "prevHash": "efa81eaddf09baff19e10dc01ea14421b8e7c0cf983d113491617163f23811d5",
+        "blockchainTxHash": "0x06f86e40b539e6d4b0a00396a2ef6d7a7a51c0be0ec61760496ce461d4dc2365",
+        "blockchainNetwork": "Ethereum Sepolia",
+        "blockNumber": 11548392,
+        "status": "CONFIRMED",
+        "contractAddress": "0x041A6784780CE499d3e44FD616A3612a58f1f296",
+        "explorerUrl": "https://sepolia.etherscan.io/tx/0x06f86e40b539e6d4b0a00396a2ef6d7a7a51c0be0ec61760496ce461d4dc2365",
+        "chainError": null
+      },
+      {
+        "eventId": "EVT-HC-2026-0076-3",
+        "batchID": "HC-2026-0076",
+        "eventType": "PROCESSING",
+        "actor": "PRC-12",
+        "role": "processor",
+        "timestamp": "2026-08-23T06:55:18.767Z",
+        "payloadHash": "31d5d72f156db462cc54ec046f46c48c99a1b03f788a73b4f95011a5260fadda",
+        "evidenceHash": "sha256:c07c5044614e8a6e88633282c9e20731d45e258805acde36a785bdbb7f624c4a",
+        "ipfsCid": null,
+        "recordHash": "f4714c5a081f625aff3e4546fc9d9f04ad26049b0ea580ff05416414b556d6c1",
+        "prevHash": "f1f0b1479f1dc14082089865129f241cd88004188ab03f8217602c8024f7938c",
+        "blockchainTxHash": null,
+        "blockchainNetwork": null,
+        "blockNumber": null,
+        "status": "FAILED",
+        "contractAddress": null,
+        "explorerUrl": null,
+        "chainError": "execution reverted: \"batch: bad status\""
+      },
+      {
+        "eventId": "EVT-HC-2026-0076-4",
+        "batchID": "HC-2026-0076",
+        "eventType": "EXPORT",
+        "actor": "wqeq12",
+        "role": "exporter",
+        "timestamp": "2026-08-23T06:56:37.245Z",
+        "payloadHash": "662e750aa44976773e538bedd819924e29b3f27745c95759399395d9c44a22f1",
+        "evidenceHash": "sha256:31dee766bcb1ac5cfef6c79f9ea6fbf78af046e1644a52334ba73eb9cc9502a8",
+        "ipfsCid": null,
+        "recordHash": "02c23d2988fd56846d59b7d6551668ed3c8f07d05a317b3398017d8c79e683c6",
+        "prevHash": "f4714c5a081f625aff3e4546fc9d9f04ad26049b0ea580ff05416414b556d6c1",
+        "blockchainTxHash": null,
+        "blockchainNetwork": null,
+        "blockNumber": null,
+        "status": "FAILED",
+        "contractAddress": null,
+        "explorerUrl": null,
+        "chainError": "execution reverted: \"batch: bad status\""
+      },
+      {
+        "eventId": "EVT-HC-2026-0076-5",
+        "batchID": "HC-2026-0076",
+        "eventType": "ENVIRONMENT",
+        "actor": "env23",
+        "role": "environment",
+        "timestamp": "2026-08-23T06:57:20.558Z",
+        "payloadHash": "08f512d02a4b0a712e9e2b73bce5348386080fbf495f806109c8caf8ad22fde0",
+        "evidenceHash": null,
+        "ipfsCid": null,
+        "recordHash": "e2a84e2fa3b33566502deaf971f55494cbd47303eb3155789a073ad0580b0940",
+        "prevHash": "02c23d2988fd56846d59b7d6551668ed3c8f07d05a317b3398017d8c79e683c6",
+        "blockchainTxHash": "0x9b13909c8999768170da1a57bb13caa568582496e1815af03c9dbbb829c08cfd",
+        "blockchainNetwork": "Ethereum Sepolia",
+        "blockNumber": 11548414,
+        "status": "CONFIRMED",
+        "contractAddress": "0x041A6784780CE499d3e44FD616A3612a58f1f296",
+        "explorerUrl": "https://sepolia.etherscan.io/tx/0x9b13909c8999768170da1a57bb13caa568582496e1815af03c9dbbb829c08cfd",
+        "chainError": null
+      }
+    ],
+    "HC-2026-0091": [
+      {
+        "eventId": "EVT-HC-2026-0091-0",
+        "batchID": "HC-2026-0091",
+        "eventType": "HARVEST",
+        "actor": "Beekeeper",
+        "role": "beekeeper",
+        "timestamp": "2026-08-23T14:28:50.206Z",
+        "payloadHash": "604c2bf515f8ab42767e71371192ad0a030094cc306ab810412812b71c924b2f",
+        "evidenceHash": "sha256:ad8b357d8d63a025fd96d146e26a33a4584f3d521c9c23d046222a3673ee0008",
+        "ipfsCid": null,
+        "recordHash": "6ded6b92ff554a39b5695fb3965618de43cddd31a581d10d69d57bf8dcc70b4e",
+        "prevHash": "GENESIS",
+        "blockchainTxHash": "0x30b9a05e1a80dc0a7f80fede3b2de4564df9dd2dbb9f3fb1cf2bbfca821b4fc0",
+        "blockchainNetwork": "Ethereum Sepolia",
+        "blockNumber": 11550610,
+        "status": "CONFIRMED",
+        "contractAddress": "0x041A6784780CE499d3e44FD616A3612a58f1f296",
+        "explorerUrl": "https://sepolia.etherscan.io/tx/0x30b9a05e1a80dc0a7f80fede3b2de4564df9dd2dbb9f3fb1cf2bbfca821b4fc0",
+        "chainError": null
+      },
+      {
+        "eventId": "EVT-HC-2026-0091-1",
+        "batchID": "HC-2026-0091",
+        "eventType": "COLLECTION",
+        "actor": "Collector01",
+        "role": "wild_collector",
+        "timestamp": "2026-08-23T14:30:58.858Z",
+        "payloadHash": "c2f3a1c895d27bbd4a3b40f07b0b009f5f8b70fd70bd1be69d58128ee6d57b01",
+        "evidenceHash": "sha256:b670e503b8fe37267fb4555e8127a8391da34122726c52787f92288b6ef1b9fc",
+        "ipfsCid": null,
+        "recordHash": "98d47eaf83448e4956f2457dc88d048d8af25baa3ec44a185bddc5a49032a2f9",
+        "prevHash": "6ded6b92ff554a39b5695fb3965618de43cddd31a581d10d69d57bf8dcc70b4e",
+        "blockchainTxHash": "0x4af45d65f7f18caf20ad0957a7a7a13299ac3864d5c5ef5e898d1132b14a3367",
+        "blockchainNetwork": "Ethereum Sepolia",
+        "blockNumber": 11550621,
+        "status": "CONFIRMED",
+        "contractAddress": "0x041A6784780CE499d3e44FD616A3612a58f1f296",
+        "explorerUrl": "https://sepolia.etherscan.io/tx/0x4af45d65f7f18caf20ad0957a7a7a13299ac3864d5c5ef5e898d1132b14a3367",
+        "chainError": null
+      },
+      {
+        "eventId": "EVT-HC-2026-0091-2",
+        "batchID": "HC-2026-0091",
+        "eventType": "LAB_TEST",
+        "actor": "Lab012",
+        "role": "lab",
+        "timestamp": "2026-08-23T14:33:41.182Z",
+        "payloadHash": "861731d3f657798783ddf72a943cba83b9e015837f2a838c5f7da02c5aa03b63",
+        "evidenceHash": "sha256:d30378014888f5d3c79f7b57ec1141681ead9183f4fbec7c3461de1f07dbd1fe",
+        "ipfsCid": null,
+        "recordHash": "f85a437e9e3bfcb00bf026bd33d5114f14bd4f24f073bb14ac32b0b85f2c84a1",
+        "prevHash": "98d47eaf83448e4956f2457dc88d048d8af25baa3ec44a185bddc5a49032a2f9",
+        "blockchainTxHash": "0x2464d7e684d64bee70446b388e536e2d59b55678045325473b30dddfb897b0d6",
+        "blockchainNetwork": "Ethereum Sepolia",
+        "blockNumber": 11550635,
+        "status": "CONFIRMED",
+        "contractAddress": "0x041A6784780CE499d3e44FD616A3612a58f1f296",
+        "explorerUrl": "https://sepolia.etherscan.io/tx/0x2464d7e684d64bee70446b388e536e2d59b55678045325473b30dddfb897b0d6",
+        "chainError": null
+      }
+    ]
+  },
+  "txids": {},
+  "alerts": [
+    {
+      "id": "ALT-1787495621186-616",
+      "timestamp": "2026-08-23T14:33:41.186Z",
+      "resolved": false,
+      "type": "quality",
+      "severity": "high",
+      "batchID": "HC-2026-0091",
+      "message": "Batch HC-2026-0091 FAILED laboratory quality verification.",
+      "detail": "Batch is blocked from further processing."
+    },
+    {
+      "id": "ALT-1787416977842-302",
+      "timestamp": "2026-08-22T16:42:57.842Z",
+      "resolved": false,
+      "type": "quality",
+      "severity": "high",
+      "batchID": "HC-2026-0068",
+      "message": "Batch HC-2026-0068 FAILED laboratory quality verification.",
+      "detail": "Batch is blocked from further processing."
+    }
+  ],
+  "seq": {
+    "batch": 98,
+    "product": 2,
+    "evidence": 18
+  }
+}
