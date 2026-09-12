@@ -111,38 +111,75 @@ function LegacyNav() {
 
 function Home() {
   return (
-    <div className="py-10">
-      <div className="text-center mb-12">
-        <div className="text-6xl mb-4">🍯</div>
-        <h1 className="text-5xl font-extrabold text-slate-900 mb-4">HoneyChain</h1>
-        <p className="text-xl text-slate-500 max-w-2xl mx-auto">
-          Blockchain-based honey traceability &amp; smart beekeeping system for KVIC's Honey Mission.
-          Every batch tracked from hive to jar — counterfeit-proof, consumer-verified.
-        </p>
-        <div className="mt-6 flex flex-wrap gap-3 justify-center text-sm">
-          <span className="bg-amber-100 text-amber-800 px-3 py-1 rounded-full font-semibold">QR Consumer Verification</span>
-          <span className="bg-sky-100 text-sky-800 px-3 py-1 rounded-full font-semibold">AI Disease Detection</span>
-          <span className="bg-teal-100 text-teal-800 px-3 py-1 rounded-full font-semibold">IoT Hive Monitoring</span>
-          <span className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full font-semibold">Immutable Batch Ledger</span>
+    <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 relative overflow-hidden">
+      {/* Decorative honey drops - top right */}
+      <div className="absolute top-20 right-10 text-6xl opacity-40 animate-pulse">🍯</div>
+      <div className="absolute bottom-32 right-20 text-5xl opacity-30">💧</div>
+      
+      {/* Main content */}
+      <div className="py-16 px-4 sm:px-6 max-w-6xl mx-auto">
+        {/* Header Section */}
+        <div className="text-center mb-16">
+          <div className="flex items-center justify-center gap-2 mb-6">
+            <div className="text-5xl">🍯</div>
+            <div className="text-5xl">💛</div>
+          </div>
+          
+          <h1 className="text-6xl sm:text-7xl font-black text-slate-900 mb-4">
+            <span className="text-amber-500">Honey</span>Chain
+          </h1>
+          
+          <p className="text-lg sm:text-xl text-slate-600 max-w-3xl mx-auto mb-8 leading-relaxed">
+            Blockchain-based honey traceability &amp; smart beekeeping system for KVIC's
+            Honey Mission. Every batch tracked from hive to jar — counterfeit-proof,
+            consumer-verified.
+          </p>
+          
+          {/* Feature Pills */}
+          <div className="mt-8 flex flex-wrap gap-3 justify-center">
+            <span className="bg-white/70 backdrop-blur-sm border border-amber-200 text-amber-700 px-4 py-2 rounded-full font-semibold text-sm shadow-sm hover:shadow-md transition-shadow">
+              🔍 QR Consumer Verification
+            </span>
+            <span className="bg-white/70 backdrop-blur-sm border border-emerald-200 text-emerald-700 px-4 py-2 rounded-full font-semibold text-sm shadow-sm hover:shadow-md transition-shadow">
+              🌿 AI Disease Detection
+            </span>
+            <span className="bg-white/70 backdrop-blur-sm border border-blue-200 text-blue-700 px-4 py-2 rounded-full font-semibold text-sm shadow-sm hover:shadow-md transition-shadow">
+              📡 IoT Hive Monitoring
+            </span>
+            <span className="bg-white/70 backdrop-blur-sm border border-purple-200 text-purple-700 px-4 py-2 rounded-full font-semibold text-sm shadow-sm hover:shadow-md transition-shadow">
+              ⛓️ Immutable Batch Ledger
+            </span>
+          </div>
         </div>
-      </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-6xl mx-auto">
-        {ROLES.map((r) => {
-          const c = COLOR[r.color];
-          const Icon = r.icon;
-          return (
-            <Link key={r.key} to={r.path}
-              className={`bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all ring-1 ${c.ring}`}>
-              <div className={`w-12 h-12 rounded-xl ${c.bg} ${c.text} flex items-center justify-center mb-4`}>
-                <Icon className="w-6 h-6" />
-              </div>
-              <h3 className="font-bold text-slate-800 text-lg">{r.label}</h3>
-              <p className={`text-sm font-medium ${c.text} mt-1`}>{r.tagline}</p>
-              <p className="text-xs text-slate-500 mt-2">{r.reason}</p>
-            </Link>
-          );
-        })}
-      </div>
+
+        {/* Roles Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {ROLES.map((r) => {
+            const c = COLOR[r.color];
+            const Icon = r.icon;
+            return (
+              <Link key={r.key} to={r.path}
+                className="group bg-white rounded-2xl p-6 shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border border-slate-100/50 hover:border-amber-200/50">
+                
+                {/* Icon Background */}
+                <div className={`w-14 h-14 rounded-2xl ${c.bg} ${c.text} flex items-center justify-center mb-5 group-hover:scale-110 transition-transform`}>
+                  <Icon className="w-7 h-7" strokeWidth={2} />
+                </div>
+                
+                {/* Content */}
+                <h3 className="font-bold text-slate-900 text-lg mb-2">{r.label}</h3>
+                <p className={`text-sm font-medium ${c.text} mb-3`}>{r.tagline}</p>
+                <p className="text-xs text-slate-500 mb-4">{r.reason}</p>
+                
+                {/* Arrow indicator */}
+                <div className="flex items-center gap-2 text-amber-600 font-semibold text-sm group-hover:translate-x-1 transition-transform">
+                  <span>Explore</span>
+                  <span>→</span>
+                </div>
+              </Link>
+            );
+          })}
+        </div>
 
       {/* KVIC Banner */}
       <div className="mt-12 max-w-4xl mx-auto bg-gradient-to-r from-amber-50 to-yellow-50 border border-amber-200 rounded-2xl p-6">
@@ -158,6 +195,7 @@ function Home() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
