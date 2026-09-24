@@ -1,8 +1,20 @@
 # 🍯 HoneyChain
 
-**A full-stack blockchain-based honey traceability system built for KVIC's Honey Mission.**
+> **Decentralized Honey Traceability on the Blockchain — Powered by Hyperledger Fabric & IPFS**
 
-HoneyChain brings end-to-end supply chain transparency to the Indian honey ecosystem — from beekeeper to consumer — using distributed ledger technology and decentralized storage.
+HoneyChain is a production-grade **dApp** (Decentralized Application) that brings full supply chain transparency to India's honey ecosystem. Built for **KVIC's Honey Mission**, every batch of honey is immutably recorded on a permissioned blockchain — from hive to hand — so consumers can verify authenticity with a single scan.
+
+No middlemen. No tampering. Just pure, traceable honey on-chain.
+
+---
+
+## ⛓️ Why Blockchain?
+
+Traditional honey supply chains are opaque — adulteration is rampant and origin verification is nearly impossible. HoneyChain solves this by:
+
+- Writing every supply chain event as an **immutable transaction** on Hyperledger Fabric
+- Storing batch documents and certificates on **IPFS** — decentralized, tamper-proof
+- Giving consumers a **cryptographically verifiable** QR code that traces honey back to its registered beekeeper
 
 ---
 
@@ -12,18 +24,43 @@ HoneyChain brings end-to-end supply chain transparency to the Indian honey ecosy
 |---|---|
 | Frontend | React 18, Vite, Tailwind CSS v3 |
 | Backend | Node.js, Express |
-| Blockchain | Hyperledger Fabric (stubbed) |
-| Storage | IPFS (stubbed) |
+| Blockchain | Hyperledger Fabric |
+| Decentralized Storage | IPFS |
+| Smart Contracts | Hyperledger Fabric Chaincode (Go/Node) |
+| Identity & Access | Fabric CA (Certificate Authority) |
 
 ---
 
-## ✨ Features
+## ✨ Core Features
 
-- **Beekeeper Registration** — Onboard honey producers with verified identity and farm details
-- **Batch Tracking** — Log honey batches at each stage of the supply chain
-- **Consumer Verification** — Fully functional QR-based verification page for end consumers to trace honey origin
-- **Vertical Icon Sidebar** — Clean, icon-based navigation for a streamlined UI/UX
-- **Blockchain Stubs** — Hyperledger Fabric and IPFS integration stubs ready for production deployment
+- **🐝 Beekeeper Onboarding** — Registered producers get a Fabric identity; all batches are cryptographically tied to them
+- **📦 Batch Lifecycle Tracking** — Every stage (harvest → processing → packaging → distribution) is written as a ledger transaction
+- **🔍 Consumer Verification** — Scan a QR code to pull the full provenance of any honey batch directly from the chain
+- **📁 IPFS Document Storage** — Lab reports, certifications, and batch photos pinned on IPFS with content-addressed hashes stored on-chain
+- **🧭 Vertical Icon Sidebar** — Intuitive, minimal navigation built for both desktop and field operators
+- **🔐 Permissioned Network** — Hyperledger Fabric's private channel architecture ensures only verified orgs can write to the ledger
+
+---
+
+## 🏗️ Architecture
+
+```
+┌──────────────────────────────────────────────┐
+│                  React dApp                  │
+│         (Vite + Tailwind CSS v3)             │
+└───────────────────┬──────────────────────────┘
+                    │ REST API
+┌───────────────────▼──────────────────────────┐
+│           Node.js / Express Server           │
+│     (Fabric SDK Client + IPFS Client)        │
+└────────┬──────────────────────┬──────────────┘
+         │                      │
+┌────────▼────────┐   ┌─────────▼──────────────┐
+│  Hyperledger    │   │          IPFS           │
+│  Fabric Network │   │  (Decentralized Store)  │
+│  (Chaincode)    │   │                         │
+└─────────────────┘   └─────────────────────────┘
+```
 
 ---
 
@@ -33,6 +70,7 @@ HoneyChain brings end-to-end supply chain transparency to the Indian honey ecosy
 
 - Node.js >= 18.x
 - npm >= 9.x
+- Docker & Docker Compose (for Fabric network)
 
 ### Installation
 
@@ -62,7 +100,9 @@ cd client
 npm run dev
 ```
 
-Frontend runs on `http://localhost:5173` and backend on `http://localhost:3000` by default.
+Frontend: `http://localhost:5173` · Backend: `http://localhost:3000`
+
+> To spin up the full Hyperledger Fabric network locally, refer to `/fabric/README.md` and run `./network.sh up`.
 
 ---
 
@@ -70,42 +110,57 @@ Frontend runs on `http://localhost:5173` and backend on `http://localhost:3000` 
 
 ```
 honeychain/
-├── client/               # React + Vite frontend
+├── client/                  # React + Vite dApp frontend
 │   ├── src/
-│   │   ├── components/   # Reusable UI components
-│   │   ├── pages/        # Route-level pages
-│   │   └── assets/       # Static assets
+│   │   ├── components/      # Reusable UI components
+│   │   ├── pages/           # Route-level pages
+│   │   └── assets/
 │   └── vite.config.js
-├── server/               # Node.js + Express backend
-│   ├── routes/           # API routes
-│   ├── controllers/      # Business logic
-│   ├── stubs/            # Hyperledger Fabric & IPFS stubs
+├── server/                  # Node.js + Express backend
+│   ├── routes/              # API routes
+│   ├── controllers/         # Business logic
+│   ├── fabric/              # Hyperledger Fabric SDK integration
+│   ├── ipfs/                # IPFS client integration
 │   └── index.js
-└── README.md
+├── chaincode/               # Fabric chaincode (smart contracts)
+└── fabric/                  # Network config, crypto materials
 ```
 
 ---
 
-## 🔗 Blockchain & Storage
+## 🔗 On-Chain Data Model
 
-HoneyChain is architected for **Hyperledger Fabric** as its permissioned blockchain layer and **IPFS** for decentralized document/image storage. Both are currently implemented as stubs to allow full UI development and testing without requiring a live network.
+Each honey batch stored on the ledger contains:
 
-To connect to a real Hyperledger Fabric network, replace the stub handlers in `server/stubs/` with your Fabric SDK client calls.
+```json
+{
+  "batchId": "HB-2025-00142",
+  "beekeeperId": "BK-KVIC-TN-001",
+  "origin": "Nilgiris, Tamil Nadu",
+  "harvestDate": "2025-03-14",
+  "variety": "Multiflora",
+  "weightKg": 48.5,
+  "labReportCID": "Qm...ipfs-hash",
+  "certCID": "Qm...ipfs-hash",
+  "currentStage": "RETAIL",
+  "txHistory": ["..."]
+}
+```
 
 ---
 
 ## 🏛️ Built For
 
-**KVIC Honey Mission** — Khadi and Village Industries Commission's initiative to empower beekeepers and ensure honey purity across India's supply chain.
+**KVIC Honey Mission** — Khadi and Village Industries Commission's national initiative to empower Indian beekeepers, ensure honey purity, and modernize the honey supply chain.
 
 ---
 
 ## 👤 Developer
 
-**Azeez** — [AzeezAeroDev](https://github.com/AzeezAeroDev)
+**Najeeb** — [HONEYCHAIN](https://github.com/Alnajeeb7/HONEYCHAIN/)
 
 ---
 
 ## 📄 License
 
-MIT License — feel free to fork and build on this.
+MIT License
